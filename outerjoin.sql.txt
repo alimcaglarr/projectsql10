@@ -1,0 +1,16 @@
+select A.city , B.country from city A
+LEFT OUTER JOIN country B
+ON A.country_id = B.country_id
+
+
+select A.city , B.country from city A
+LEFT OUTER JOIN country B
+ON A.country_id = B.country_id
+
+
+SELECT R.rental_id , C.first_name , C.last_name FROM customer C
+FULL OUTER JOIN rental R 
+ON C.customer_id = R.customer_id
+
+
+
